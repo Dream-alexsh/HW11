@@ -1,0 +1,5 @@
+<h1>Все кандидаты</h1>
+{% for candidate in candidate_list %}
+<p><a href="/candidate/{{candidate.id}}">
+    <p>{{ candidate.name }}</p>
+{% endfor %}</a></p>
